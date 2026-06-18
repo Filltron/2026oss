@@ -2,5 +2,10 @@
 
 int mod(int x, int y)
 {
-	return 0;
+	while (x > y)
+	{
+		x = sub(x, y)
+	}
+	return x;
 }
+
